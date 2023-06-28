@@ -1,0 +1,14 @@
+﻿.carticon__container {
+    position: relative;
+}
+
+.carticon__badgecontainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.carticon__icon {
+    font-size: 50px;
+    color: gray;
+}

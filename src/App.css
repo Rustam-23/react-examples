@@ -1,0 +1,62 @@
+.App {
+  background-color: #ffffff;
+}
+
+.container-posts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.badge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
+
+.badge {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 40s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
